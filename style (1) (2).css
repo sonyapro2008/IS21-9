@@ -1,0 +1,302 @@
+body{
+    width: 1200px;
+    margin: auto
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.ask_btn{
+    background-color: #33836E;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+}
+
+
+.phone_number{
+    font-weight: bold;
+    font-size: larger;
+    display: block;
+    color: #33836E;
+}
+
+
+.search{
+    width: 427px;
+    border: none;
+    font-size: 16px;
+    background-color: #2F2B430A;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.menu{
+    display: flex;
+    margin-top: 40px;
+    gap: 30px;
+    justify-content: space-between;
+    font-size: 16px;
+    align-items: center;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu-border{
+    border: 1px solid rgb rgb(255, 255, 255);
+    border-radius: 10px; 
+    padding: 10px 20px;
+}
+
+.help{
+    display: flex;
+}
+
+.onas{
+    display: block;
+}
+.free_call{
+    display: flex;
+}
+.description_icon {
+    justify-items: center;
+}
+
+.ask_btn2{
+    background-color: #33836E;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+}
+
+.main{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+color: grey;
+}
+
+.help_center1{
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 52px;
+letter-spacing: -0.03em;
+color: #140A32;
+}
+
+.help_center2{
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 160%;
+color: #140A32;
+margin-top: 40px;
+}
+
+.help_center3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 160%;
+    color: #140A32;
+}
+.legal_help{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.free_call{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 30px;
+margin-top: 30px;
+margin-bottom: 25px;
+}
+
+.description{ 
+display: flex;
+align-items: flex-start;
+align-content: flex-start;
+padding: 0px;
+gap: 30px;
+}
+
+.description_icon{
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+
+
+.man{
+    margin: 10px;
+}
+.help_questions{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 80px;
+
+}
+.get_help{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.help_item{
+    border: 1px solid #2F2B4326;
+    padding: 10px 20px;
+    width: 270px;
+    border-radius: 20px;
+}
+
+.help_item img {
+    display: block;
+    margin: 10px;
+}
+
+.help_item span{
+    display: block;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.text_help2{
+    color: #33836E;
+    font-style: bold ;
+}
+
+.photo{
+    margin-bottom: 80px;
+}
+
+.about_help{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+    width: 560px;
+    height: 180px;
+    border: 1px solid rgba(47, 43, 67, 0.15);
+    border-radius: 20px;
+    flex-grow: 0;
+    gap: 20px;
+    margin-top: 20px;
+    flex: 1;
+}
+
+.helping {
+    margin-top: 80px;
+}
+
+.ourhelp{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.text_pick{
+    display: flex;
+}
+
+.texts{
+    display: block;
+}
+
+.number{
+width: 105px;
+height: 38px;
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 38px;
+letter-spacing: -0.03em;
+color: #33836E;
+}
+
+.years1{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+width: 143px;
+height: 70px;
+border-radius: 20px;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.years{
+    display: flex;
+    padding-top: 10px;
+    
+}
+
+.pick_us{
+    padding-top: 80px;
+}
+
+.text_under{
+    padding-top: 60px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+}
+
+.sp_items{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.textik{
+    display: flex;
+    justify-items: center;
+    gap: 5px;
+}
+
+.sp_item{
+    box-sizing: border-box;
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid rgba(47, 43, 67, 0.15);
+    border-radius: 20px;
+    flex-grow: 0;
+    gap: 20px;
+    margin-top: 20px;
+    flex: 1;
+    width: 560px;
+    height: 287px;
+}
+
+.textik2{
+    width: 520px;
+    color: #2F2B43B2;
+}
+
+.textt{
+    /* text-decoration: underline;
+    text-decoration-color: #33836E; */
+    border-bottom: 0px;
+    border-bottom: 1px solid #33836E;
+}
