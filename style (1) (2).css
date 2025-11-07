@@ -231,18 +231,18 @@ color: #33836E;
 }
 
 .years1{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-padding: 0px;
-gap: 10px;
-width: 143px;
-height: 70px;
-border-radius: 20px;
-flex: none;
-order: 1;
-flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 143px;
+    height: 70px;
+    border-radius: 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 
 .years{
@@ -251,6 +251,9 @@ flex-grow: 0;
     
 }
 
+.hot_line{
+    margin-bottom: 80px;
+}
 .pick_us{
     padding-top: 80px;
 }
@@ -270,7 +273,8 @@ flex-grow: 0;
 .textik{
     display: flex;
     justify-items: center;
-    gap: 5px;
+    gap: 10px;
+    font-weight: 700;
 }
 
 .sp_item{
@@ -295,8 +299,70 @@ flex-grow: 0;
 }
 
 .textt{
-    /* text-decoration: underline;
-    text-decoration-color: #33836E; */
     border-bottom: 0px;
     border-bottom: 1px solid #33836E;
+}
+
+.ask_question{
+display: flex;
+background: rgba(47, 43, 67, 0.04);
+border-radius: 20px;
+margin-top: 80px;
+}
+
+.ask_call{
+    background-color: #33836E;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    padding: 16px 36px 18px;
+    gap: 10px;
+    width: 207px;
+    height: 56px;
+    background: #33836E;
+    border-radius: 10px;
+}
+.first_text{
+    padding-top: 35px;
+    margin-left: 50px;
+    color: #140A32;
+    width: 295px;
+}
+
+.phone_part{
+    display: flex;
+    padding-top: 65px;
+    gap: 10px;
+    margin-bottom: 15px;
+    
+}
+
+.number_part{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 7px 16px 8px;
+width: 201px;
+background: #FFFFFF;
+border: 1px solid rgba(47, 43, 67, 0.15);
+border-radius: 10px;
+}
+
+.phonenumb{
+    color: #2F2B4366;
+}
+
+.text_under{
+    width: 480px;
+}
+
+.text_under1{
+    color: #2F2B4366;
 }
